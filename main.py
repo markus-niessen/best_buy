@@ -1,3 +1,5 @@
+"""Command line interface for the Best Buy store project."""
+
 import products
 import store
 
@@ -12,6 +14,7 @@ best_buy = store.Store(product_list)
 
 
 def start(store_obj):
+    """Start the store menu interface."""
     while True:
         print("""
    Store Menu
